@@ -1,0 +1,115 @@
+/*Pseudo elements*/
+p::first-line{
+    font-weight: bold;
+    color: brown;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+}
+
+p.about::first-line{
+    color: green;
+}
+
+p::first-letter{
+    font-size: 40px;
+}
+
+p::after{
+    content: "-deneme";
+    background-color: yellow;
+    padding: 5px;
+    display: block;
+}
+
+
+/*Pseudo class*/
+ul li:first-child{
+    background-color: blue;
+}
+
+
+
+ul li{
+    list-style: none;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+ul li:last-child{
+    background-color: blue;
+}
+
+ul li:nth-of-type(even){
+    border: 2px solid red;
+}/*2 ve 4. elemanı alır. (çift elemanlar)*/
+
+ul li:nth-of-type(odd){
+    border: 2px solid black;
+}/*1,3 ve 5. elemanı alır.(tek elemanlar)*/
+
+/*display block yaptığım inline bir etikete genişlik değeri verebilirim.*/
+
+a{
+    display: block;
+    width: 80px;
+    text-decoration: none;
+    padding: 5px 8px;
+    border: 2px solid orange;
+    margin-bottom: 10px;
+}
+
+a:link{
+    color: red;
+}
+
+a:visited{
+     
+    color: gray;
+}
+
+a:hover{
+    
+    color: white;
+    background-color: green;
+}
+
+a:active{
+     color: green;
+    background-color: gold;
+}
+
+span{
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+    
+}
+
+div:hover span{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,53 @@
+body{
+    color: brown;
+}/*a etiketi kahverengini almaz yani miras almaz rengi. */
+
+ul{
+    color: rebeccapurple;
+}
+
+li{
+    color: green;
+}
+
+.orange{
+    color: orange;
+}
+
+#temel{
+    color: black;
+}
+
+
+a{
+    color: inherit;
+    
+}/*inherit dediğim için a etiketi kendisinin bir üstündeki li nin color özelliğini alır*/
+
+span{
+    color: red;
+    border: 2px solid green;
+}
+
+div{
+    color: blue;
+}
+
+#inherit span{
+    color: inherit;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

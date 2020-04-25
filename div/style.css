@@ -1,0 +1,16 @@
+.section-one {
+    color: blue;
+    background-color: bisque;
+    width: 70%;
+    height: 90px;
+    overflow: scroll;/*yukarıda sabit bir yükseklik değeri atadığım için taşmayı önleme adına bunu yazarım*/
+    
+}
+
+.section-two {
+    color: red;
+    background-color: gray;
+    width: 250px;
+   
+
+}

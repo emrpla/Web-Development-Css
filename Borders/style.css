@@ -1,0 +1,87 @@
+
+		body{
+			margin: 0;
+		}
+
+		.box{
+			width: 120px;
+			height: 120px;
+			background: lightgray;
+			margin: 10px;
+			padding: 10px;
+            display: inline-block;
+            
+		}
+		
+		#first{
+			border-bottom-width: 1px;
+            border-right-width: 2px;
+            border-top-width: 3px;
+            border-left-width: 4px;
+            border-style: solid;
+            border-color: red;
+            border-top-color: blue;
+		}
+		#second{
+            border: 2px solid blue;
+            border-radius: 50%;
+			
+		}
+		#third{
+            border: 3px solid green;
+            border-radius: 10px;
+            position: absolute;
+            right: 0;
+            top: 0;
+            
+		}
+
+#msgbox{
+    background-color: lightgray;
+    border-left: 5px solid green;
+    margin: 10px;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		 

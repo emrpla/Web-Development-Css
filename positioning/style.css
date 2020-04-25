@@ -1,0 +1,28 @@
+.a{
+    background-color: blue;
+}
+
+.b{
+    background-color: red;
+    position: relative;/*bulunduğu normal konumdan değiştirir divi.*/
+    left: 30px;
+    top:45px;
+}
+
+.c{
+    background-color: green;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    
+}
+
+/*relative yerine absolute olsa idi sayfanın sol üst köşesinden itibaren konumunu değiştirirdi.*/
+
+/*position:stick önemli!!*/

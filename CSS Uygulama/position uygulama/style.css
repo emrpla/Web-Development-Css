@@ -1,0 +1,31 @@
+.box{
+    width: 120px;
+    height: 120px;
+}
+
+.mbox{
+    width: 30px;
+    height: 30px;
+    background: yellow;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+
+#first{
+    background: red;
+}
+
+#second{
+    background: blue;
+    position: relative;
+    
+}
+
+#third{
+    background: green;
+    position: fixed;
+    top: 0;
+    right: 0;/*menü oluştururken sayfada aşşağıya doğru inerken menünün kaybolmasını istemiyorsam fixed kullanılır.Veya sticky*/
+}

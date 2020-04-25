@@ -1,0 +1,31 @@
+.box {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-left: 20px;
+}
+
+#first {
+    background: red;
+    margin-top: 50px;
+}
+
+#second {
+    background: blue;
+    margin-top: 100px;
+}
+
+#third {
+    background: green;
+    margin-top: 150px;
+}
+
+body{
+    margin: 0;
+}
+
+span{
+    background-color: red;
+    margin: 50px;
+    display: inline-block;/*inline block demez isem sadece sağ ve soldan 50 pixel hesaplanır.Çünkü span bir inline etikettir.*/
+}

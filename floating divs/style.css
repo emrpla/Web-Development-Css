@@ -1,0 +1,51 @@
+.box{
+    width: 170px;
+    height: 170px;
+    margin: 5px;
+}
+
+#container{
+    background-color: slategray;
+}
+
+#first{
+    background-color: red;
+    float: left;
+}
+
+#second{
+    background-color: aquamarine;
+    float: left;
+}
+
+#third{
+    background-color: blueviolet;
+    float: left;
+}
+
+.clear{
+    overflow: auto;
+}/*gray arka planın float işleminden sonra gözükmesi için overflow yaptık bunun başka bir yoluda var:
+
+.clear:after{
+content:"" ;
+display:block ;
+clear: both ;
+}
+Bu yazım sayesindede arkaplandaki gray rengi gözükür
+
+*/
+
+p:after{
+    background-color: goldenrod;
+    content: " - Deneme"
+}
+
+
+
+
+
+
+
+
+

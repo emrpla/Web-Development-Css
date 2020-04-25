@@ -1,0 +1,26 @@
+#container{
+    width: 1140px;
+    background-color: blue;
+}
+
+#blog-post-container{
+    width: 75%;
+    background-color: blueviolet;
+    float: left;
+    
+}
+
+#other-posts{
+    background-color: aquamarine;
+    width: 25%;
+    float: left;
+    
+}
+
+#author-box{
+    border: 2px solid red;
+}
+
+.clear{
+    clear: both;
+}/*other box divinin borderı daha düzgün oldu.*/

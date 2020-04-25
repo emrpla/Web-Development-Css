@@ -1,0 +1,14 @@
+body{
+    font-size: 16px;
+}
+
+p{
+    font-family: "Comic Sans MS", cursive, sans-serif	
+
+    font-size: 2em;
+}/*body deki fontun iki katını al demek*/
+
+span{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 3em;
+}

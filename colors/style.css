@@ -1,0 +1,3 @@
+p{
+    background-color: rgba(255,99,71,0.4)/* a değeri alphayı temsil eder ve 0 ile 1 arası değer alır.0 olduğunda tamamen görünmez 1 de ise tamamiyle baskın bir renk olur.*/
+}

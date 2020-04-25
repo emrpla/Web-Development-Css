@@ -1,0 +1,20 @@
+#box1{
+    box-sizing: content-box;
+    width: 300px;
+    height: 100px;
+    background: green;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 10px solid black;
+}/*padding ekledikten sonra genişlik 320 px oldu.
+borderıda ekledikten sonra 340 px oldu genişlik yükseklik ise 140 oldu.*/
+
+#box2{
+    box-sizing: border-box;
+    width: 300px;
+    height: 100px;
+    background: gold;
+    padding: 10px;
+    border: 10px solid black;
+}
+/*box sizingi border box olduğu içi padding ve border değerleri 300 px e dahil olur yani kutunun genişliği ve uzunluğu artmaz 300 pxde sabit kalır.*/
